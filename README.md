@@ -1,4 +1,4 @@
-# usps-zip-code-applet
+# usps-zip-code-database-dl-application
 
 Developed for TrenData Texas as part of their training under UTD Capstone Project (Team 65)
 
