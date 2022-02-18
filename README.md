@@ -3,7 +3,6 @@
 Developed for TrenData Texas as part of their training under UTD Capstone Project (Team 65)
 
 This script accessed USPS.com to download, parse and store, ALL the ZIP Codes currently linked to the United States Postal Service's directory.
-It is simple to you 
 
 
 
