@@ -80,7 +80,7 @@ def createDatabaseWEntries(data):
              REGION_IND  char(2) NOT NULL, 
              STATES_Z CHAR(20) NOT NULL,
              PRE_ZIP  char(3) NOT NULL, 
-             ZIPCODE  int(5) PRIMARY KEY UNIQUE) NOT NULL"""
+             ZIPCODE  int(5) PRIMARY KEY UNIQUE)"""
     cursor.execute(create_table)  # Execute CREATE TABLE command
     print("TABLE " + table_name + " CREATED\n")
 
