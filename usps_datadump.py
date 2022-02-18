@@ -76,11 +76,11 @@ def createDatabaseWEntries(data):
     print("TABLE " + table_name + " DELETED")
 
     create_table = "CREATE TABLE " + table_name + """ ( 
-             REGION  CHAR(20), 
-             REGION_IND  char(2), 
-             STATES_Z CHAR(20),
-             PRE_ZIP  char(3), 
-             ZIPCODE  int(5) PRIMARY KEY UNIQUE) """
+             REGION  CHAR(20) NOT NULL, 
+             REGION_IND  char(2) NOT NULL, 
+             STATES_Z CHAR(20) NOT NULL,
+             PRE_ZIP  char(3) NOT NULL, 
+             ZIPCODE  int(5) PRIMARY KEY UNIQUE) NOT NULL"""
     cursor.execute(create_table)  # Execute CREATE TABLE command
     print("TABLE " + table_name + " CREATED\n")
 
